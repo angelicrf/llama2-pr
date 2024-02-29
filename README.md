@@ -5,6 +5,10 @@ sudo apt update
 sudo apt install python3.7 python3-pip
 pip install --upgrade pip
 pip cache purge
+
+python3.7 -m venv dev-envs
+source dev-envs/bin/activate
+
 pip install -r requirements.txt
 
 pip show tensorflow
