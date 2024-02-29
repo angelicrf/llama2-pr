@@ -1,5 +1,11 @@
 # llama2-pr
 
+```
+pip install --upgrade pip
+pip install -r requirements.txt
+
+```
+
 1. Update prconfig.yaml
 2. Update devenvs.yaml
 3. Update the prentity
